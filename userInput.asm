@@ -44,5 +44,3 @@ syscall
 #end of program 
 li $v0, 10 #system call code for exit 
 syscall
-
-#Reference https://www.physicsforums.com/threads/mips-user-input-as-output.596262/
