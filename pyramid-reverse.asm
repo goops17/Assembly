@@ -1,4 +1,4 @@
-#inverse-triangle.asm 
+#pyramid-reverse.asm
 # Written by: Gopal Chitaure (gochit01@wsc.edu)
 # Nested loop concept
 #Printing pyramid pattern
