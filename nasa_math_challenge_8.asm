@@ -1,4 +1,4 @@
-# division.asm 
+# nasa_math_challenge_8.asm.asm 
 # Written by: Gopal Chitaure (gochit01@wsc.edu)
 # Solution to NASA Math Challenge Question 8
 # Challenge/Question link: https://eclipse2017.nasa.gov/challenge-8-%E2%80%93-exploring-angular-diameter
