@@ -1,4 +1,7 @@
-#userInput.asm 
+#surface-area.asm 
+# Written by: Gopal Chitaure (gochit01@wsc.edu)
+# Taking user input and calculating surface area
+# Concepts used: User input
 .data 
 B: .asciiz "\nEnter area of base: " 
 C: .asciiz "\nEnter circumference: " 
