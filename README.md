@@ -6,5 +6,5 @@ Solution link: https://github.com/goops17/Assembly/blob/master/nasa_math_challen
 
 ### Calculating Surface area
 Taking user input and calculating surface area (SA) = 2 * B (Base Height) + Circumference (C)* height(h)
-Solution link: https://github.com/goops17/Assembly/blob/master/userInput.asm
+Solution link: https://github.com/goops17/Assembly/blob/master/surface-area.asm
 
