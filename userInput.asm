@@ -1,8 +1,9 @@
 #userInput.asm 
 .data 
-B: .asciiz "\nEnter B: " 
-Ch: .asciiz "\nEnter Ch: " 
-answer: .asciiz "\n\n SA = 2B + Ch is " 
+B: .asciiz "\nEnter area of base: " 
+C: .asciiz "\nEnter circumference: " 
+h: .asciiz "\nEnter height: " 
+answer: .asciiz "\n\n SA = 2B + C*h is " 
 
 .text 
 #printing B
@@ -15,21 +16,34 @@ li $v0, 5
 syscall 
 add $s0, $v0, $zero  
 
-#Printing Ch
+#Printing C
 li $v0, 4 
-la $a0, Ch  
+la $a0, C 
 syscall 
 
-#taking Ch from user
+#taking C from user
 li $v0, 5 
 syscall 
 add $s1, $v0, $zero
 
+#Printing C
+li $v0, 4 
+la $a0, h  
+syscall 
+
+#taking C from user
+li $v0, 5 
+syscall 
+add $s2, $v0, $zero
+
 #Calculating 2B
 add $s0, $s0, $s0 #2B = B+B or 2*B
 
+#Calculating Ch
+mult $s2, $s1
+mflo $a0
 #Calculating 2B+Ch
-add $t0, $s1, $s0
+add $t0, $a0, $s0
  
 #Print message
 li $v0, 4 
