@@ -2,11 +2,12 @@
 # Written by: Gopal Chitaure (gochit01@wsc.edu)
 # Nested loop concept
 #Printing pyramid pattern
-    #
-   ###
-  #####
- #######
-#########
+###########
+ ######### 
+  #######  
+   #####   
+    ###    
+     # 
 .data
 	star: .asciiz "*"
 	new_line: .asciiz "\n"
